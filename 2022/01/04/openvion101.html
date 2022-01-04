@@ -1,0 +1,2074 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Title | mlbangla</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Title" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
+<meta property="og:description" content="An easy to use blogging platform with support for Jupyter Notebooks." />
+<link rel="canonical" href="https://riyadhuddin.github.io/mlbangla/2022/01/04/openvion101.html" />
+<meta property="og:url" content="https://riyadhuddin.github.io/mlbangla/2022/01/04/openvion101.html" />
+<meta property="og:site_name" content="mlbangla" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-01-04T00:00:00-06:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Title" />
+<script type="application/ld+json">
+{"url":"https://riyadhuddin.github.io/mlbangla/2022/01/04/openvion101.html","@type":"BlogPosting","headline":"Title","dateModified":"2022-01-04T00:00:00-06:00","datePublished":"2022-01-04T00:00:00-06:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://riyadhuddin.github.io/mlbangla/2022/01/04/openvion101.html"},"description":"An easy to use blogging platform with support for Jupyter Notebooks.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/mlbangla/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://riyadhuddin.github.io/mlbangla/feed.xml" title="mlbangla" /><link rel="shortcut icon" type="image/x-icon" href="/mlbangla/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/mlbangla/">mlbangla</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/mlbangla/about/">About Me</a><a class="page-link" href="/mlbangla/search/">Search</a><a class="page-link" href="/mlbangla/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Title</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-01-04T00:00:00-06:00" itemprop="datePublished">
+        Jan 4, 2022
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      16 min read
+    
+</span></p>
+
+    
+
+    
+      
+        <div class="pb-5 d-flex flex-justify-center">
+          <div class="px-2">
+
+    <a href="https://github.com/riyadhuddin/mlbangla/tree/master/_notebooks/2022-01-04-openvion101.ipynb" role="button" target="_blank">
+<img class="notebook-badge-image" src="/mlbangla/assets/badges/github.svg" alt="View On GitHub">
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://mybinder.org/v2/gh/riyadhuddin/mlbangla/master?filepath=_notebooks%2F2022-01-04-openvion101.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/mlbangla/assets/badges/binder.svg" alt="Open In Binder"/>
+    </a>
+</div>
+
+          <div class="px-2">
+    <a href="https://colab.research.google.com/github/riyadhuddin/mlbangla/blob/master/_notebooks/2022-01-04-openvion101.ipynb" target="_blank">
+        <img class="notebook-badge-image" src="/mlbangla/assets/badges/colab.svg" alt="Open In Colab"/>
+    </a>
+</div>
+          <div class="px-2">
+  <a href="https://deepnote.com/launch?url=https%3A%2F%2Fgithub.com%2Friyadhuddin%2Fmlbangla%2Fblob%2Fmaster%2F_notebooks%2F2022-01-04-openvion101.ipynb" target="_blank">
+      <img class="notebook-badge-image" src="/mlbangla/assets/badges/deepnote.svg" alt="Launch in Deepnote"/>
+  </a>
+</div>
+
+        </div>
+      </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!--
+#################################################
+### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
+#################################################
+# file to edit: _notebooks/2022-01-04-openvion101.ipynb
+-->
+
+<div class="container" id="notebook-container">
+        
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="nn">tf</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tf</span><span class="o">.</span><span class="n">__version__</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&#39;2.4.4&#39;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">mnist</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">keras</span><span class="o">.</span><span class="n">datasets</span><span class="o">.</span><span class="n">mnist</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="p">(</span><span class="n">x_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">),</span> <span class="p">(</span><span class="n">x_test</span><span class="p">,</span> <span class="n">y_test</span><span class="p">)</span> <span class="o">=</span> <span class="n">mnist</span><span class="o">.</span><span class="n">load_data</span><span class="p">()</span>
+<span class="n">x_train</span><span class="p">,</span> <span class="n">x_test</span> <span class="o">=</span> <span class="n">x_train</span> <span class="o">/</span> <span class="mf">255.0</span><span class="p">,</span> <span class="n">x_test</span> <span class="o">/</span> <span class="mf">255.0</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Downloading data from https://storage.googleapis.com/tensorflow/tf-keras-datasets/mnist.npz
+11493376/11490434 [==============================] - 3s 0us/step
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">model</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">keras</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">Sequential</span><span class="p">([</span>
+  <span class="n">tf</span><span class="o">.</span><span class="n">keras</span><span class="o">.</span><span class="n">layers</span><span class="o">.</span><span class="n">Flatten</span><span class="p">(</span><span class="n">input_shape</span><span class="o">=</span><span class="p">(</span><span class="mi">28</span><span class="p">,</span> <span class="mi">28</span><span class="p">)),</span>
+  <span class="n">tf</span><span class="o">.</span><span class="n">keras</span><span class="o">.</span><span class="n">layers</span><span class="o">.</span><span class="n">Dense</span><span class="p">(</span><span class="mi">128</span><span class="p">,</span> <span class="n">activation</span><span class="o">=</span><span class="s1">&#39;relu&#39;</span><span class="p">),</span>
+  <span class="n">tf</span><span class="o">.</span><span class="n">keras</span><span class="o">.</span><span class="n">layers</span><span class="o">.</span><span class="n">Dropout</span><span class="p">(</span><span class="mf">0.2</span><span class="p">),</span>
+  <span class="n">tf</span><span class="o">.</span><span class="n">keras</span><span class="o">.</span><span class="n">layers</span><span class="o">.</span><span class="n">Dense</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+<span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">predictions</span> <span class="o">=</span> <span class="n">model</span><span class="p">(</span><span class="n">x_train</span><span class="p">[:</span><span class="mi">1</span><span class="p">])</span><span class="o">.</span><span class="n">numpy</span><span class="p">()</span>
+<span class="n">predictions</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([[-0.76480716, -0.69049954, -0.6823444 ,  0.09689973,  0.45827216,
+        -0.23839718,  0.205401  ,  0.18324575, -0.8623942 ,  0.7430562 ]],
+      dtype=float32)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">tf</span><span class="o">.</span><span class="n">nn</span><span class="o">.</span><span class="n">softmax</span><span class="p">(</span><span class="n">predictions</span><span class="p">)</span><span class="o">.</span><span class="n">numpy</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([[0.04702776, 0.05065539, 0.05107019, 0.111324  , 0.15978311,
+        0.07961067, 0.12408244, 0.1213636 , 0.04265527, 0.21242763]],
+      dtype=float32)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">loss_fn</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">keras</span><span class="o">.</span><span class="n">losses</span><span class="o">.</span><span class="n">SparseCategoricalCrossentropy</span><span class="p">(</span><span class="n">from_logits</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">loss_fn</span><span class="p">(</span><span class="n">y_train</span><span class="p">[:</span><span class="mi">1</span><span class="p">],</span> <span class="n">predictions</span><span class="p">)</span><span class="o">.</span><span class="n">numpy</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>2.5306072</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">model</span><span class="o">.</span><span class="n">compile</span><span class="p">(</span><span class="n">optimizer</span><span class="o">=</span><span class="s1">&#39;adam&#39;</span><span class="p">,</span>
+              <span class="n">loss</span><span class="o">=</span><span class="n">loss_fn</span><span class="p">,</span>
+              <span class="n">metrics</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;accuracy&#39;</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">model</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">x_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">epochs</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Epoch 1/5
+1875/1875 [==============================] - 19s 10ms/step - loss: 0.4799 - accuracy: 0.8593
+Epoch 2/5
+1875/1875 [==============================] - 18s 10ms/step - loss: 0.1544 - accuracy: 0.9549
+Epoch 3/5
+1875/1875 [==============================] - 19s 10ms/step - loss: 0.1108 - accuracy: 0.9679
+Epoch 4/5
+1875/1875 [==============================] - 21s 11ms/step - loss: 0.0910 - accuracy: 0.9729
+Epoch 5/5
+1875/1875 [==============================] - 18s 10ms/step - loss: 0.0795 - accuracy: 0.9769
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&lt;tensorflow.python.keras.callbacks.History at 0x7fe1d51c7a00&gt;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">model</span><span class="o">.</span><span class="n">evaluate</span><span class="p">(</span><span class="n">x_test</span><span class="p">,</span>  <span class="n">y_test</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>313/313 - 0s - loss: 0.0734 - accuracy: 0.9773
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[0.07342039048671722, 0.9772999882698059]</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">probability_model</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">keras</span><span class="o">.</span><span class="n">Sequential</span><span class="p">([</span>
+  <span class="n">model</span><span class="p">,</span>
+  <span class="n">tf</span><span class="o">.</span><span class="n">keras</span><span class="o">.</span><span class="n">layers</span><span class="o">.</span><span class="n">Softmax</span><span class="p">()</span>
+<span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">probability_model</span><span class="p">(</span><span class="n">x_test</span><span class="p">[:</span><span class="mi">5</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>&lt;tf.Tensor: shape=(5, 10), dtype=float32, numpy=
+array([[5.3325046e-08, 2.8153595e-08, 4.2096963e-05, 6.8184495e-04,
+        1.3434530e-11, 4.1878525e-07, 1.0231643e-12, 9.9927431e-01,
+        8.2829933e-07, 3.0515460e-07],
+       [3.4997740e-08, 3.1513729e-04, 9.9952114e-01, 1.3690135e-04,
+        6.9117748e-13, 1.5989042e-05, 1.0965876e-07, 1.6409508e-10,
+        1.0669124e-05, 2.5090353e-12],
+       [1.0889717e-06, 9.9809855e-01, 2.3320541e-04, 1.0303055e-05,
+        2.7063461e-05, 2.0977421e-05, 1.1688772e-05, 1.4193362e-03,
+        1.7755431e-04, 2.3787923e-07],
+       [9.9992704e-01, 5.4899036e-08, 4.9432325e-05, 9.5224788e-09,
+        7.8594056e-09, 5.7956936e-07, 7.9628990e-06, 1.4436050e-05,
+        9.8185211e-08, 3.1363763e-07],
+       [2.9442032e-05, 1.6279216e-07, 2.0743959e-05, 1.5505091e-06,
+        9.7020715e-01, 3.0978510e-06, 2.9673063e-05, 2.4832680e-04,
+        1.4960876e-05, 2.9444780e-02]], dtype=float32)&gt;</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">predictions</span> <span class="o">=</span> <span class="n">probability_model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">x_test</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">predictions</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([5.3324943e-08, 2.8153648e-08, 4.2096963e-05, 6.8184530e-04,
+       1.3434530e-11, 4.1878525e-07, 1.0231663e-12, 9.9927431e-01,
+       8.2829933e-07, 3.0515488e-07], dtype=float32)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">predictions</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>7</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x_test</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>array([[0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        ],
+       [0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        ],
+       [0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        ],
+       [0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        ],
+       [0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        ],
+       [0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        ],
+       [0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        ],
+       [0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.32941176, 0.7254902 , 0.62352941, 0.59215686,
+        0.23529412, 0.14117647, 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        ],
+       [0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.87058824, 0.99607843, 0.99607843, 0.99607843,
+        0.99607843, 0.94509804, 0.77647059, 0.77647059, 0.77647059,
+        0.77647059, 0.77647059, 0.77647059, 0.77647059, 0.77647059,
+        0.66666667, 0.20392157, 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        ],
+       [0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.2627451 , 0.44705882, 0.28235294, 0.44705882,
+        0.63921569, 0.89019608, 0.99607843, 0.88235294, 0.99607843,
+        0.99607843, 0.99607843, 0.98039216, 0.89803922, 0.99607843,
+        0.99607843, 0.54901961, 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        ],
+       [0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.06666667, 0.25882353, 0.05490196, 0.2627451 ,
+        0.2627451 , 0.2627451 , 0.23137255, 0.08235294, 0.9254902 ,
+        0.99607843, 0.41568627, 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        ],
+       [0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.3254902 , 0.99215686,
+        0.81960784, 0.07058824, 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        ],
+       [0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.08627451, 0.91372549, 1.        ,
+        0.3254902 , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        ],
+       [0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.50588235, 0.99607843, 0.93333333,
+        0.17254902, 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        ],
+       [0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.23137255, 0.97647059, 0.99607843, 0.24313725,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        ],
+       [0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.52156863, 0.99607843, 0.73333333, 0.01960784,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        ],
+       [0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.03529412, 0.80392157, 0.97254902, 0.22745098, 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        ],
+       [0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.49411765, 0.99607843, 0.71372549, 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        ],
+       [0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.29411765,
+        0.98431373, 0.94117647, 0.22352941, 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        ],
+       [0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.0745098 , 0.86666667,
+        0.99607843, 0.65098039, 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        ],
+       [0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.01176471, 0.79607843, 0.99607843,
+        0.85882353, 0.1372549 , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        ],
+       [0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.14901961, 0.99607843, 0.99607843,
+        0.30196078, 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        ],
+       [0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.12156863, 0.87843137, 0.99607843, 0.45098039,
+        0.00392157, 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        ],
+       [0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.52156863, 0.99607843, 0.99607843, 0.20392157,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        ],
+       [0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.23921569, 0.94901961, 0.99607843, 0.99607843, 0.20392157,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        ],
+       [0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.4745098 , 0.99607843, 0.99607843, 0.85882353, 0.15686275,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        ],
+       [0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.4745098 , 0.99607843, 0.81176471, 0.07058824, 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        ],
+       [0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        , 0.        , 0.        ,
+        0.        , 0.        , 0.        ]])</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">plot_image</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">predictions_array</span><span class="p">,</span> <span class="n">true_label</span><span class="p">,</span> <span class="n">img</span><span class="p">):</span>
+  <span class="n">true_label</span><span class="p">,</span> <span class="n">img</span> <span class="o">=</span> <span class="n">true_label</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">img</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+  <span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span>
+  <span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">([])</span>
+  <span class="n">plt</span><span class="o">.</span><span class="n">yticks</span><span class="p">([])</span>
+
+  <span class="n">plt</span><span class="o">.</span><span class="n">imshow</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="n">cmap</span><span class="o">=</span><span class="n">plt</span><span class="o">.</span><span class="n">cm</span><span class="o">.</span><span class="n">binary</span><span class="p">)</span>
+
+  <span class="n">predicted_label</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">predictions_array</span><span class="p">)</span>
+  <span class="k">if</span> <span class="n">predicted_label</span> <span class="o">==</span> <span class="n">true_label</span><span class="p">:</span>
+    <span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;blue&#39;</span>
+  <span class="k">else</span><span class="p">:</span>
+    <span class="n">color</span> <span class="o">=</span> <span class="s1">&#39;red&#39;</span>
+
+  <span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{}</span><span class="s2"> </span><span class="si">{:2.0f}</span><span class="s2">% (</span><span class="si">{}</span><span class="s2">)&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">class_names</span><span class="p">[</span><span class="n">predicted_label</span><span class="p">],</span>
+                                <span class="mi">100</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">max</span><span class="p">(</span><span class="n">predictions_array</span><span class="p">),</span>
+                                <span class="n">class_names</span><span class="p">[</span><span class="n">true_label</span><span class="p">]),</span>
+                                <span class="n">color</span><span class="o">=</span><span class="n">color</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">plot_value_array</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">predictions_array</span><span class="p">,</span> <span class="n">true_label</span><span class="p">):</span>
+  <span class="n">true_label</span> <span class="o">=</span> <span class="n">true_label</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+  <span class="n">plt</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span>
+  <span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">))</span>
+  <span class="n">plt</span><span class="o">.</span><span class="n">yticks</span><span class="p">([])</span>
+  <span class="n">thisplot</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">),</span> <span class="n">predictions_array</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s2">&quot;#777777&quot;</span><span class="p">)</span>
+  <span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">])</span>
+  <span class="n">predicted_label</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">predictions_array</span><span class="p">)</span>
+
+  <span class="n">thisplot</span><span class="p">[</span><span class="n">predicted_label</span><span class="p">]</span><span class="o">.</span><span class="n">set_color</span><span class="p">(</span><span class="s1">&#39;red&#39;</span><span class="p">)</span>
+  <span class="n">thisplot</span><span class="p">[</span><span class="n">true_label</span><span class="p">]</span><span class="o">.</span><span class="n">set_color</span><span class="p">(</span><span class="s1">&#39;blue&#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">plot_image</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">predictions</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">y_test</span><span class="p">,</span> <span class="n">x_test</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">plot_value_array</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">predictions</span><span class="p">[</span><span class="n">i</span><span class="p">],</span>  <span class="n">y_test</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAWAAAADCCAYAAAB3whgdAAAAOXRFWHRTb2Z0d2FyZQBNYXRwbG90bGliIHZlcnNpb24zLjMuNCwgaHR0cHM6Ly9tYXRwbG90bGliLm9yZy8QVMy6AAAACXBIWXMAAAsTAAALEwEAmpwYAAANXElEQVR4nO3df5CV1X3H8fdXWUFEQQL1t4GyiYYyBi1jIzbaiDFgaUw7bYeOzUztJO2MtEY7o61pNWPtdGy1TjKDU42Y1qT+KEWjxjjGxNYqnWoFkaiYdFDQYEkRJS1tSHXJt388DwS5z7LP3WX3gPt+zexw93vP2efci3z27DnnWSMzkSSNvINKD0CSRisDWJIKMYAlqRADWJIKMYAlqRADWJIKGVN6AFJpU6ZMyWnTppUehgawZg309bVrO2YMfPCDwzuetlatWrUlM6c2PWcAa9SbNm0aK1euLD0MDSCifdu+Pthf/koj4pX+nnMJQpIKMYAlqRADWJIK6WoN2M0KDacNGzawZcuWLlb6pANbVwHsZoWG05w5c0oPQRpRLkFIUiEGsCQVYgBLUiEGsCQVYgBLUiEGsCQVYgBLUiEGsCQVYgBLUiEGsCQVYgBLUiEGsCQVYgBLUiEGsCQVYgBLUiEGsCQVYgBLUiEGsCQVYgBLUiEGsCQVYgBLUiEGsCQVYgBLUiEGsCQVYgBLUiEGsCQVYgBLUiEGsCQVYgBLUiEGsCQVYgBLUiEGsCQVYgBLUiEGsCQVYgBLUiFjSg+gW8uXL++o3XrrrY1tjz322I7auHHjGtteeOGFHbWjjz66sW1vb+/ehihJrTgDlqRCDGBJKsQAlqRCDGBJKsQAlqRCDrhTEJdffnlHbcOGDUP+ujfffHNH7YgjjmhsO3PmzCFfb6SccMIJjfUrrriiozZnzpzhHo6k3TgDlqRCDGBJKsQAlqRCDGBJKuSA24RbunRpR23NmjWNbZs2y9auXdvYdvXq1R21xx57rLHtk08+2VE78cQTO2qvvvpqY/9u9PT0dNSmTJnS2HbTpk0dtaaxQvPmnJtw0shyBixJhRjAklSIASxJhRjAklSIASxJhRxwpyDmzZvXqtaf+fPnt267devWxnrTiYmmEwRPP/1062v1Z+zYsR21k046qbHtySef3FF78803G9vOmDFjaAOTNGTOgCWpEANYkgoxgCWpEANYkgo54DbhRtKRRx7ZWD/nnHNa9e9mc7Ab99xzT2O9adPwlFNOaWy7aNGifTomSd1zBixJhRjAklSIASxJhRjAklSIASxJhXgKYj+3efPmjtrFF1/c2DYzO2pXX311Y9vJkycPbWCShswZsCQVYgBLUiEGsCQVYgBLUiFuwu3nbrrppo5a08YcwKRJkzpq/f3uYEnlOQOWpEIMYEkqxACWpEIMYEkqxE24/cSKFSsa69ddd13rr3H//fd31GbNmjXoMUkaXs6AJakQA1iSCjGAJakQA1iSCjGAJakQT0HsJx566KHG+ltvvdVRO/fccxvbnnHGGft0TJKGlzNgSSrEAJakQgxgSSrEAJakQtyEK2D79u0dtYcffrix7dixYztq11xzTWPbnp6eoQ1M0ohyBixJhRjAklSIASxJhRjAklSIASxJhXgKooDrr7++o7Z69erGtgsWLOiozZ07d5+PSdLIcwYsSYUYwJJUiAEsSYUYwJJUiJtww+jBBx9srF977bUdtYkTJza2veqqq/bpmCTtP5wBS1IhBrAkFWIAS1IhBrAkFWIAS1IhnoLYR954442O2iWXXNLYtq+vr6N2/vnnN7b1/3QsvXs5A5akQgxgSSrEAJakQgxgSSrETbhB2LFjR0dt/vz5HbX169c39u/t7e2oNd2eLOndzRmwJBViAEtSIQawJBViAEtSIQawJBXiKYhBeOmllzpqK1eubN3/xhtv7KjNmDFjSGOSdOBxBixJhRjAklSIASxJhRjAklSIm3B78corrzTWzzvvvFb9b7jhhsb6woULBz0mSe8ezoAlqRADWJIKMYAlqRADWJIKMYAlqRBPQezFLbfc0ljv73TEns4+++zGekQMekyS3j2cAUtSIQawJBViAEtSIQawJBXiJlztiSee6KgtWbKkwEgkjRbOgCWpEANYkgoxgCWpEANYkgoxgCWpEE9B1FasWNFR27ZtW+v+vb29HbUJEyYMaUyS3t2cAUtSIQawJBViAEtSIQawJBXiJtwgzJ49u6P26KOPdtQmT548AqORdKByBixJhRjAklSIASxJhRjAklSIASxJhXgKonbllVe2qknSvuIMWJIKMYAlqRADWJIKMYAlqZCuNuFWrVq1JSJeGa7BaNR7b+kBSCOpqwDOzKnDNRBJGm1cgpCkQgxgSSrEAJakQkZdAEdwWQQvRPB8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
+" />
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">class_names</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;0&#39;</span><span class="p">,</span><span class="s1">&#39;1&#39;</span><span class="p">,</span><span class="s1">&#39;2&#39;</span><span class="p">,</span><span class="s1">&#39;3&#39;</span><span class="p">,</span><span class="s1">&#39;4&#39;</span><span class="p">,</span><span class="s1">&#39;5&#39;</span><span class="p">,</span><span class="s1">&#39;6&#39;</span><span class="p">,</span><span class="s1">&#39;7&#39;</span><span class="p">,</span><span class="s1">&#39;8&#39;</span><span class="p">,</span><span class="s1">&#39;9&#39;</span><span class="p">]</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">i</span> <span class="o">=</span> <span class="mi">12</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">6</span><span class="p">,</span><span class="mi">3</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">plot_image</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">predictions</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">y_test</span><span class="p">,</span> <span class="n">x_test</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">plot_value_array</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">predictions</span><span class="p">[</span><span class="n">i</span><span class="p">],</span>  <span class="n">y_test</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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
+" />
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Color correct predictions in blue and incorrect predictions in red.</span>
+<span class="n">num_rows</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="n">num_cols</span> <span class="o">=</span> <span class="mi">3</span>
+<span class="n">num_images</span> <span class="o">=</span> <span class="n">num_rows</span><span class="o">*</span><span class="n">num_cols</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">2</span><span class="o">*</span><span class="mi">2</span><span class="o">*</span><span class="n">num_cols</span><span class="p">,</span> <span class="mi">2</span><span class="o">*</span><span class="n">num_rows</span><span class="p">))</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_images</span><span class="p">):</span>
+  <span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="n">num_rows</span><span class="p">,</span> <span class="mi">2</span><span class="o">*</span><span class="n">num_cols</span><span class="p">,</span> <span class="mi">2</span><span class="o">*</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+  <span class="n">plot_image</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">predictions</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">y_test</span><span class="p">,</span> <span class="n">x_test</span><span class="p">)</span>
+  <span class="n">plt</span><span class="o">.</span><span class="n">subplot</span><span class="p">(</span><span class="n">num_rows</span><span class="p">,</span> <span class="mi">2</span><span class="o">*</span><span class="n">num_cols</span><span class="p">,</span> <span class="mi">2</span><span class="o">*</span><span class="n">i</span><span class="o">+</span><span class="mi">2</span><span class="p">)</span>
+  <span class="n">plot_value_array</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">predictions</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">y_test</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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8FDx5z//eUn7BFQzZqQAAAAAIBIDKQAAAACIxEAKAAAAACJV3Rqpp59+OsivvfZakLPXM4i9jtRhhx1W57Ftt902yJ06dQryE088EeRzzz0372tcc801QT788MNjugigkWT/lrPXYLr99tuD3LFjx7L3KSt73ahsjeQaLwCWyF73shjbbLNNGXoCNA/MSAEAAABAJAZSAAAAABCJgRQAAAAARKr4NVKzZs0KcvY6LvPnz4/a3xprrBHk3XbbLcinn356nW3at2+fd5+9evUK8nXXXRfkbB9POOGEIP/vf/8L8lFHHRXkNm3a5H19AKUxatSoID/00ENBzl43KnuNuKZwzjnnBDm7Jmro0KFB7ty5c5l7BKBSZddQ1mfZZZcN8nnnnVeu7gBVjxkpAAAAAIjEQAoAAAAAIjGQAgAAAIBIFb9GatGiRUGOXRM1ZMiQIN99991B7tq169J1rJbsGqmTTz45yMcdd1yQv/zyyyBn10yNHDkyyGuttVZDuwigCPfee2+Qs3+rlXDNt+y60TvuuCPIrVuHZf2UU04JMmsugZbj+eefD/ILL7xQcJvsuvABAwaUsktAs8KMFAAAAABEYiAFAAAAAJEYSAEAAABApIpfIxUre12XW265JcilWBNVSHaN09///vcgv/zyy2XvA4DCPv300yC/+OKLedsfccQR5exOUa6//vogz5s3L8h9+vQJ8lZbbVX2PgGoTK+88kr0NpWwFhSoFsxIAQAAAEAkBlIAAAAAEImBFAAAAABEqro1Ut9++23e51966aVG6klu7h7k7777Lu/z2Z/p9NNPD/Ltt99ewt4BWGLhwoVBnj17dpD33nvvxuxOUd588828z/ft27eRegKg0hWzRqpz585BroS1oEC1YEYKAAAAACIxkAIAAACASAykAAAAACASAykAAAAAiFTxXzZx7bXXBrlVq1ZN1JPijRkzJsgTJ04MspkFOfsznXnmmeXpGIDA8ssvH+QBAwYEeerUqUH++OOPg7ziiiuWpV+1zZ07N8j33ntv3vY//elPy9kdABXsueeeC/Idd9xRcJtOnToFuWfPniXtE9CcMSMFAAAAAJEYSAEAAABAJAZSAAAAABCp4tdIjR07tqm7UMe8efOC/Oqrrwb5vPPOi9pf165dg9ymTZul6xiAKO3atQvy2muvHeRRo0YFeYcddgjycccd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Uln7BKAyZK8rNWrUqCDfcccdQe7cuXOQs+sts+uh6nPqqacGecaMGUH+5z//mfc1svULQOM5//zzg7zHHnsEeZ999gnyokWLgjx79uwgZ9dMNYa5c+cGOXuc1Ldv3yCfcsopZe8TUCmYkQIAAACASAykAAAAACASAykAAAAAiMQaqYyHH364YJsddtghyIMGDSpXdwBUsOyaqWwuhXbt2gV5zz33DHJ2jdSTTz4Z5I8//jjI2WtjASifVq1aBXnDDTcM8htvvJF3+3//+99Bzq6hOuOMM4L88ssvR/YwXvb6eOPHjy/7awKVihkpAAAAAIjEQAoAAAAAIjGQAgAAAIBIrJHKqG+NVIcOHYL8+9//vrG6AwCB7HVoRo8eHeS77roryFdeeWWQTzvttPJ0DEDJDRs2LO/zkyZNCnJ2jVSbNm2CfNBBB9XZxyGHHBLkP//5z0HOXh8PwA+YkQIAAACASAykAAAAACASAykAAAAAiNTi10hde+21Qf7ggw/qtOnevXuQuW4UgKayzDLh518nnHBCkB944IEgZ68zs9deewV53XXXLVnfADSubbfdNsgnn3xykLPXnbr++uvr7OM///lPkJ966qmoPqy22mpR7YHmhBkpAAAAAIjEQAoAAAAAIjGQAgAAAIBIrJHKrJEyszpttt9++7z7+Pzzz4O8YMGCIK+xxhpL2TsAyG/AgAFBPvvss4Ocve7dSSedFOTbb789yO3atStd5wCUVe/evYO85557Bvnuu+8uuI8nn3wy7/OtW4eHijvssEOQL7jggoKvATRXzEgBAAAAQCQGUgAAAAAQiYEUAAAAAERq8WukipE9Pzi7puDPf/5zkPv27RvkW2+9tTwdA4CM/fffP8jXXXddkO+7774gZ68h069fv/J0DEDJZdc0XnbZZUHOruEeP358nX18+OGHQa6pqQlytqZkr00HtGTMSAEAAABAJAZSAAAAABCJgRQAAAAARGKNVBFuuOGGIN94441B/vWvfx3kU089tex9AoD6dOvWLcj/+te/gtyrV68gn3/++UG+4447ytMxAGXXvXv3II8dOzbIf/vb3+ps88ILLwQ5uwZq5ZVXLk3ngGaIGSkAAAAAiMRACgAAAAAiMZACAAAAgEgMpAAAAAAgUov/sokrrrgiyKeffnqdNkOGDAny4YcfHuQuXboEedllly1R7wCg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
+" />
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">img</span> <span class="o">=</span> <span class="n">x_test</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">img</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>(28, 28)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">img</span> <span class="o">=</span> <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">expand_dims</span><span class="p">(</span><span class="n">img</span><span class="p">,</span><span class="mi">0</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">img</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>(1, 28, 28)
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">predictions_single</span> <span class="o">=</span> <span class="n">probability_model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">img</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">predictions_single</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[[3.4997672e-08 3.1513697e-04 9.9952114e-01 1.3690122e-04 6.9117482e-13
+  1.5989011e-05 1.0965834e-07 1.6409508e-10 1.0669114e-05 2.5090353e-12]]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">plot_value_array</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">predictions_single</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">y_test</span><span class="p">)</span>
+<span class="n">_</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">xticks</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">),</span> <span class="n">class_names</span><span class="p">,</span> <span class="n">rotation</span><span class="o">=</span><span class="mi">45</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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
+" />
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">np</span><span class="o">.</span><span class="n">argmax</span><span class="p">(</span><span class="n">predictions_single</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>2</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">psutil</span>
+<span class="n">psutil</span><span class="o">.</span><span class="n">cpu_percent</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>1.7</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">psutil</span><span class="o">.</span><span class="n">virtual_memory</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>svmem(total=1081514258432, available=1024321605632, percent=5.3, used=58597588992, free=935166513152, active=45286871040, inactive=63530778624, buffers=1191936, cached=87748964352, shared=403750912, slab=16187326464)</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">dict</span><span class="p">(</span><span class="n">psutil</span><span class="o">.</span><span class="n">virtual_memory</span><span class="p">()</span><span class="o">.</span><span class="n">_asdict</span><span class="p">())</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>{&#39;total&#39;: 1081514258432,
+ &#39;available&#39;: 1024352935936,
+ &#39;percent&#39;: 5.3,
+ &#39;used&#39;: 58607460352,
+ &#39;free&#39;: 935203512320,
+ &#39;active&#39;: 45294034944,
+ &#39;inactive&#39;: 63486967808,
+ &#39;buffers&#39;: 1191936,
+ &#39;cached&#39;: 87702093824,
+ &#39;shared&#39;: 362569728,
+ &#39;slab&#39;: 16186855424}</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">psutil</span><span class="o">.</span><span class="n">virtual_memory</span><span class="p">()</span><span class="o">.</span><span class="n">percent</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>5.3</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">psutil</span><span class="o">.</span><span class="n">virtual_memory</span><span class="p">()</span><span class="o">.</span><span class="n">available</span> <span class="o">*</span> <span class="mi">100</span> <span class="o">/</span> <span class="n">psutil</span><span class="o">.</span><span class="n">virtual_memory</span><span class="p">()</span><span class="o">.</span><span class="n">total</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>94.71133232594397</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">pip</span> install psutil
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Collecting psutil
+  Downloading psutil-5.9.0-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (283 kB)
+     |████████████████████████████████| 283 kB 224 kB/s            
+Installing collected packages: psutil
+Successfully installed psutil-5.9.0
+Note: you may need to restart the kernel to use updated packages.
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">!</span>nvidia-smi
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>/usr/bin/sh: nvidia-smi: command not found
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">torch</span>
+
+<span class="c1"># setting device on GPU if available, else CPU</span>
+<span class="n">device</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">device</span><span class="p">(</span><span class="s1">&#39;cuda&#39;</span> <span class="k">if</span> <span class="n">torch</span><span class="o">.</span><span class="n">cuda</span><span class="o">.</span><span class="n">is_available</span><span class="p">()</span> <span class="k">else</span> <span class="s1">&#39;cpu&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Using device:&#39;</span><span class="p">,</span> <span class="n">device</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">()</span>
+
+<span class="c1">#Additional Info when using cuda</span>
+<span class="k">if</span> <span class="n">device</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="s1">&#39;cuda&#39;</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">cuda</span><span class="o">.</span><span class="n">get_device_name</span><span class="p">(</span><span class="mi">0</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Memory Usage:&#39;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Allocated:&#39;</span><span class="p">,</span> <span class="nb">round</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">cuda</span><span class="o">.</span><span class="n">memory_allocated</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">/</span><span class="mi">1024</span><span class="o">**</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span> <span class="s1">&#39;GB&#39;</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Cached:   &#39;</span><span class="p">,</span> <span class="nb">round</span><span class="p">(</span><span class="n">torch</span><span class="o">.</span><span class="n">cuda</span><span class="o">.</span><span class="n">memory_cached</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span><span class="o">/</span><span class="mi">1024</span><span class="o">**</span><span class="mi">3</span><span class="p">,</span><span class="mi">1</span><span class="p">),</span> <span class="s1">&#39;GB&#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Using device: cpu
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">pip</span> install gputil
+<span class="c1">#!pip install psutil</span>
+<span class="o">%</span><span class="k">pip</span> install humanize
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Collecting gputil
+  Downloading GPUtil-1.4.0.tar.gz (5.5 kB)
+  Preparing metadata (setup.py) ... done
+Building wheels for collected packages: gputil
+  Building wheel for gputil (setup.py) ... done
+  Created wheel for gputil: filename=GPUtil-1.4.0-py3-none-any.whl size=7409 sha256=cf77cf2faaa4ecf68c03441e9e9d89060b18f71cf72273a6e36d9d2eced6a04e
+  Stored in directory: /home/build/.cache/pip/wheels/ba/03/bb/7a97840eb54479b328672e15a536e49dc60da200fb21564d53
+Successfully built gputil
+Installing collected packages: gputil
+Successfully installed gputil-1.4.0
+Note: you may need to restart the kernel to use updated packages.
+Collecting humanize
+  Downloading humanize-3.13.1-py3-none-any.whl (98 kB)
+     |████████████████████████████████| 98 kB 298 kB/s            
+Installing collected packages: humanize
+Successfully installed humanize-3.13.1
+Note: you may need to restart the kernel to use updated packages.
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span><span class="o">,</span><span class="nn">sys</span><span class="o">,</span><span class="nn">humanize</span><span class="o">,</span><span class="nn">psutil</span><span class="o">,</span><span class="nn">GPUtil</span>
+
+<span class="c1"># Define function</span>
+<span class="k">def</span> <span class="nf">mem_report</span><span class="p">():</span>
+  <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;CPU RAM Free: &quot;</span> <span class="o">+</span> <span class="n">humanize</span><span class="o">.</span><span class="n">naturalsize</span><span class="p">(</span> <span class="n">psutil</span><span class="o">.</span><span class="n">virtual_memory</span><span class="p">()</span><span class="o">.</span><span class="n">available</span> <span class="p">))</span>
+  
+  <span class="n">GPUs</span> <span class="o">=</span> <span class="n">GPUtil</span><span class="o">.</span><span class="n">getGPUs</span><span class="p">()</span>
+  <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">gpu</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">GPUs</span><span class="p">):</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;GPU </span><span class="si">{:d}</span><span class="s1"> ... Mem Free: </span><span class="si">{:.0f}</span><span class="s1">MB / </span><span class="si">{:.0f}</span><span class="s1">MB | Utilization </span><span class="si">{:3.0f}</span><span class="s1">%&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">gpu</span><span class="o">.</span><span class="n">memoryFree</span><span class="p">,</span> <span class="n">gpu</span><span class="o">.</span><span class="n">memoryTotal</span><span class="p">,</span> <span class="n">gpu</span><span class="o">.</span><span class="n">memoryUtil</span><span class="o">*</span><span class="mi">100</span><span class="p">))</span>
+    
+<span class="c1"># Execute function</span>
+<span class="c1"># mem_report()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">torchvision.models</span> <span class="k">as</span> <span class="nn">models</span>
+
+<span class="n">wide_resnet50_2</span> <span class="o">=</span> <span class="n">models</span><span class="o">.</span><span class="n">wide_resnet50_2</span><span class="p">(</span><span class="n">pretrained</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="k">if</span> <span class="n">torch</span><span class="o">.</span><span class="n">cuda</span><span class="o">.</span><span class="n">is_available</span><span class="p">():</span>
+  <span class="n">resnet18</span><span class="o">.</span><span class="n">cuda</span><span class="p">()</span>
+
+<span class="n">mem_report</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>Downloading: &#34;https://download.pytorch.org/models/wide_resnet50_2-95faca4d.pth&#34; to /home/build/.cache/torch/hub/checkpoints/wide_resnet50_2-95faca4d.pth
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>CPU RAM Free: 1.0 TB
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">pip</span> install ipyexperiments
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Collecting ipyexperiments
+  Downloading ipyexperiments-0.1.28-py3-none-any.whl (17 kB)
+Requirement already satisfied: ipython&gt;=6.0.0 in /opt/ov2021.4-venv/lib/python3.8/site-packages (from ipyexperiments) (7.30.1)
+Collecting pynvml
+  Downloading pynvml-11.4.1-py3-none-any.whl (46 kB)
+     |████████████████████████████████| 46 kB 200 kB/s            
+Requirement already satisfied: psutil in /opt/ov2021.4-venv/lib/python3.8/site-packages (from ipyexperiments) (5.9.0)
+Requirement already satisfied: backcall in /opt/ov2021.4-venv/lib/python3.8/site-packages (from ipython&gt;=6.0.0-&gt;ipyexperiments) (0.2.0)
+Requirement already satisfied: decorator in /opt/ov2021.4-venv/lib/python3.8/site-packages (from ipython&gt;=6.0.0-&gt;ipyexperiments) (5.1.0)
+Requirement already satisfied: traitlets&gt;=4.2 in /opt/ov2021.4-venv/lib/python3.8/site-packages (from ipython&gt;=6.0.0-&gt;ipyexperiments) (5.1.1)
+Requirement already satisfied: setuptools&gt;=18.5 in /opt/ov2021.4-venv/lib/python3.8/site-packages (from ipython&gt;=6.0.0-&gt;ipyexperiments) (41.6.0)
+Requirement already satisfied: matplotlib-inline in /opt/ov2021.4-venv/lib/python3.8/site-packages (from ipython&gt;=6.0.0-&gt;ipyexperiments) (0.1.3)
+Requirement already satisfied: pygments in /opt/ov2021.4-venv/lib/python3.8/site-packages (from ipython&gt;=6.0.0-&gt;ipyexperiments) (2.10.0)
+Requirement already satisfied: pexpect&gt;4.3 in /opt/ov2021.4-venv/lib/python3.8/site-packages (from ipython&gt;=6.0.0-&gt;ipyexperiments) (4.8.0)
+Requirement already satisfied: jedi&gt;=0.16 in /opt/ov2021.4-venv/lib/python3.8/site-packages (from ipython&gt;=6.0.0-&gt;ipyexperiments) (0.17.2)
+Requirement already satisfied: pickleshare in /opt/ov2021.4-venv/lib/python3.8/site-packages (from ipython&gt;=6.0.0-&gt;ipyexperiments) (0.7.5)
+Requirement already satisfied: prompt-toolkit!=3.0.0,!=3.0.1,&lt;3.1.0,&gt;=2.0.0 in /opt/ov2021.4-venv/lib/python3.8/site-packages (from ipython&gt;=6.0.0-&gt;ipyexperiments) (3.0.24)
+Requirement already satisfied: parso&lt;0.8.0,&gt;=0.7.0 in /opt/ov2021.4-venv/lib/python3.8/site-packages (from jedi&gt;=0.16-&gt;ipython&gt;=6.0.0-&gt;ipyexperiments) (0.7.1)
+Requirement already satisfied: ptyprocess&gt;=0.5 in /opt/ov2021.4-venv/lib/python3.8/site-packages (from pexpect&gt;4.3-&gt;ipython&gt;=6.0.0-&gt;ipyexperiments) (0.7.0)
+Requirement already satisfied: wcwidth in /opt/ov2021.4-venv/lib/python3.8/site-packages (from prompt-toolkit!=3.0.0,!=3.0.1,&lt;3.1.0,&gt;=2.0.0-&gt;ipython&gt;=6.0.0-&gt;ipyexperiments) (0.2.5)
+Installing collected packages: pynvml, ipyexperiments
+Successfully installed ipyexperiments-0.1.28 pynvml-11.4.1
+Note: you may need to restart the kernel to use updated packages.
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">ipyexperiments</span> <span class="kn">import</span> <span class="n">IPyExperimentsCPU</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">exp1</span> <span class="o">=</span> <span class="n">IPyExperimentsCPU</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+*** Experiment started with the CPU-only backend
+
+
+*** Current state:
+RAM:       Used       Free      Total          Util
+CPU:      1,521    976,422  1,031,412 MB   0.15% 
+
+
+･ RAM:  △Consumed    △Peaked    Used Total | Exec time 0:00:00.000
+･ CPU:          0          0      1,521 MB |
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">gpustat</span> --debug
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>UsageError: Line magic function `%gpustat` not found.
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">exp1</span> <span class="o">=</span> <span class="n">IPyExperimentsCPU</span><span class="p">()</span>
+<span class="n">cpu_data</span> <span class="o">=</span> <span class="n">exp1</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">cpu</span>
+
+<span class="n">exp2</span> <span class="o">=</span> <span class="n">IPyExperimentsPytorch</span><span class="p">()</span>
+<span class="n">cpu_data</span> <span class="o">=</span> <span class="n">exp2</span><span class="o">.</span><span class="n">data</span><span class="o">.</span><span class="n">cpu</span>
+<span class="c1">#gpu_data = exp2.data.gpu</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+*** Experiment started with the CPU-only backend
+
+
+*** Current state:
+RAM:       Used       Free      Total          Util
+CPU:      1,521    976,304  1,031,412 MB   0.15% 
+
+
+･ RAM:  △Consumed    △Peaked    Used Total | Exec time 0:00:00.156
+･ CPU:          0          0      1,521 MB |
+
+IPyExperimentsCPU: Finishing
+
+*** Experiment finished in 00:00:11 (elapsed wallclock time)
+
+*** Experiment memory:
+RAM: Consumed       Reclaimed
+CPU:        0        0 MB (100.00%)
+
+*** Current state:
+RAM:       Used       Free      Total          Util
+CPU:      1,521    976,304  1,031,412 MB   0.15% 
+
+
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">OSError</span>                                   Traceback (most recent call last)
+<span class="ansi-green-fg">/opt/ov2021.4-venv/lib64/python3.8/site-packages/pynvml/nvml.py</span> in <span class="ansi-cyan-fg">_LoadNvmlLibrary</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">   1477</span>                         <span class="ansi-red-fg"># assume linux</span>
+<span class="ansi-green-fg">-&gt; 1478</span><span class="ansi-red-fg">                         </span>nvmlLib <span class="ansi-blue-fg">=</span> CDLL<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#34;libnvidia-ml.so.1&#34;</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">   1479</span>                 <span class="ansi-green-fg">except</span> OSError <span class="ansi-green-fg">as</span> ose<span class="ansi-blue-fg">:</span>
+
+<span class="ansi-green-fg">/usr/lib64/python3.8/ctypes/__init__.py</span> in <span class="ansi-cyan-fg">__init__</span><span class="ansi-blue-fg">(self, name, mode, handle, use_errno, use_last_error, winmode)</span>
+<span class="ansi-green-intense-fg ansi-bold">    372</span>         <span class="ansi-green-fg">if</span> handle <span class="ansi-green-fg">is</span> <span class="ansi-green-fg">None</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-fg">--&gt; 373</span><span class="ansi-red-fg">             </span>self<span class="ansi-blue-fg">.</span>_handle <span class="ansi-blue-fg">=</span> _dlopen<span class="ansi-blue-fg">(</span>self<span class="ansi-blue-fg">.</span>_name<span class="ansi-blue-fg">,</span> mode<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    374</span>         <span class="ansi-green-fg">else</span><span class="ansi-blue-fg">:</span>
+
+<span class="ansi-red-fg">OSError</span>: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+
+During handling of the above exception, another exception occurred:
+
+<span class="ansi-red-fg">NVMLError_LibraryNotFound</span>                 Traceback (most recent call last)
+<span class="ansi-green-fg">&lt;ipython-input-71-82103f8bd440&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-intense-fg ansi-bold">      2</span> cpu_data <span class="ansi-blue-fg">=</span> exp1<span class="ansi-blue-fg">.</span>data<span class="ansi-blue-fg">.</span>cpu
+<span class="ansi-green-intense-fg ansi-bold">      3</span> 
+<span class="ansi-green-fg">----&gt; 4</span><span class="ansi-red-fg"> </span>exp2 <span class="ansi-blue-fg">=</span> IPyExperimentsPytorch<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">      5</span> cpu_data <span class="ansi-blue-fg">=</span> exp2<span class="ansi-blue-fg">.</span>data<span class="ansi-blue-fg">.</span>cpu
+<span class="ansi-green-intense-fg ansi-bold">      6</span> <span class="ansi-red-fg">#gpu_data = exp2.data.gpu</span>
+
+<span class="ansi-green-fg">/opt/ov2021.4-venv/lib64/python3.8/site-packages/ipyexperiments/ipyexperiments.py</span> in <span class="ansi-cyan-fg">__init__</span><span class="ansi-blue-fg">(self, **kwargs)</span>
+<span class="ansi-green-intense-fg ansi-bold">    391</span>         <span class="ansi-green-fg">if</span> self<span class="ansi-blue-fg">.</span>__class__<span class="ansi-blue-fg">.</span>__name__ <span class="ansi-blue-fg">==</span> <span class="ansi-blue-fg">&#39;IPyExperimentsPytorch&#39;</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-intense-fg ansi-bold">    392</span>             logger<span class="ansi-blue-fg">.</span>debug<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#34;Starting IPyExperimentsPytorch&#34;</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-fg">--&gt; 393</span><span class="ansi-red-fg">             </span>self<span class="ansi-blue-fg">.</span>backend_init<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    394</span>             self<span class="ansi-blue-fg">.</span>start<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    395</span> 
+
+<span class="ansi-green-fg">/opt/ov2021.4-venv/lib64/python3.8/site-packages/ipyexperiments/ipyexperiments.py</span> in <span class="ansi-cyan-fg">backend_init</span><span class="ansi-blue-fg">(self)</span>
+<span class="ansi-green-intense-fg ansi-bold">    395</span> 
+<span class="ansi-green-intense-fg ansi-bold">    396</span>     <span class="ansi-green-fg">def</span> backend_init<span class="ansi-blue-fg">(</span>self<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-fg">--&gt; 397</span><span class="ansi-red-fg">         </span>super<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">.</span>backend_init<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    398</span> 
+<span class="ansi-green-intense-fg ansi-bold">    399</span>         print<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#34;\n*** Experiment started with the Pytorch backend&#34;</span><span class="ansi-blue-fg">)</span>
+
+<span class="ansi-green-fg">/opt/ov2021.4-venv/lib64/python3.8/site-packages/ipyexperiments/ipyexperiments.py</span> in <span class="ansi-cyan-fg">backend_init</span><span class="ansi-blue-fg">(self)</span>
+<span class="ansi-green-intense-fg ansi-bold">    363</span>         <span class="ansi-green-fg">from</span> ipyexperiments<span class="ansi-blue-fg">.</span>utils<span class="ansi-blue-fg">.</span>pynvml_gate <span class="ansi-green-fg">import</span> load_pynvml_env
+<span class="ansi-green-intense-fg ansi-bold">    364</span> 
+<span class="ansi-green-fg">--&gt; 365</span><span class="ansi-red-fg">         </span>self<span class="ansi-blue-fg">.</span>pynvml <span class="ansi-blue-fg">=</span> load_pynvml_env<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    366</span> 
+<span class="ansi-green-intense-fg ansi-bold">    367</span>     <span class="ansi-red-fg">#def start(self):</span>
+
+<span class="ansi-green-fg">/opt/ov2021.4-venv/lib64/python3.8/site-packages/ipyexperiments/utils/pynvml_gate.py</span> in <span class="ansi-cyan-fg">load_pynvml_env</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">     15</span>             <span class="ansi-green-fg">raise</span> Exception<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">f&#34;{e}\npynvx is required; pip install pynvx&#34;</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">     16</span> 
+<span class="ansi-green-fg">---&gt; 17</span><span class="ansi-red-fg">     </span>pynvml<span class="ansi-blue-fg">.</span>nvmlInit<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">     18</span>     <span class="ansi-green-fg">return</span> pynvml
+
+<span class="ansi-green-fg">/opt/ov2021.4-venv/lib64/python3.8/site-packages/pynvml/nvml.py</span> in <span class="ansi-cyan-fg">nvmlInit</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">   1448</span> 
+<span class="ansi-green-intense-fg ansi-bold">   1449</span> <span class="ansi-green-fg">def</span> nvmlInit<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-fg">-&gt; 1450</span><span class="ansi-red-fg">     </span>nvmlInitWithFlags<span class="ansi-blue-fg">(</span><span class="ansi-cyan-fg">0</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">   1451</span>     <span class="ansi-green-fg">return</span> <span class="ansi-green-fg">None</span>
+<span class="ansi-green-intense-fg ansi-bold">   1452</span> 
+
+<span class="ansi-green-fg">/opt/ov2021.4-venv/lib64/python3.8/site-packages/pynvml/nvml.py</span> in <span class="ansi-cyan-fg">nvmlInitWithFlags</span><span class="ansi-blue-fg">(flags)</span>
+<span class="ansi-green-intense-fg ansi-bold">   1431</span> <span class="ansi-red-fg">## C function wrappers ##</span>
+<span class="ansi-green-intense-fg ansi-bold">   1432</span> <span class="ansi-green-fg">def</span> nvmlInitWithFlags<span class="ansi-blue-fg">(</span>flags<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-fg">-&gt; 1433</span><span class="ansi-red-fg">     </span>_LoadNvmlLibrary<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">   1434</span> 
+<span class="ansi-green-intense-fg ansi-bold">   1435</span>     <span class="ansi-red-fg">#</span>
+
+<span class="ansi-green-fg">/opt/ov2021.4-venv/lib64/python3.8/site-packages/pynvml/nvml.py</span> in <span class="ansi-cyan-fg">_LoadNvmlLibrary</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-intense-fg ansi-bold">   1478</span>                         nvmlLib <span class="ansi-blue-fg">=</span> CDLL<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">&#34;libnvidia-ml.so.1&#34;</span><span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">   1479</span>                 <span class="ansi-green-fg">except</span> OSError <span class="ansi-green-fg">as</span> ose<span class="ansi-blue-fg">:</span>
+<span class="ansi-green-fg">-&gt; 1480</span><span class="ansi-red-fg">                     </span>_nvmlCheckReturn<span class="ansi-blue-fg">(</span>NVML_ERROR_LIBRARY_NOT_FOUND<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">   1481</span>                 <span class="ansi-green-fg">if</span> <span class="ansi-blue-fg">(</span>nvmlLib <span class="ansi-blue-fg">==</span> <span class="ansi-green-fg">None</span><span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-intense-fg ansi-bold">   1482</span>                     _nvmlCheckReturn<span class="ansi-blue-fg">(</span>NVML_ERROR_LIBRARY_NOT_FOUND<span class="ansi-blue-fg">)</span>
+
+<span class="ansi-green-fg">/opt/ov2021.4-venv/lib64/python3.8/site-packages/pynvml/nvml.py</span> in <span class="ansi-cyan-fg">_nvmlCheckReturn</span><span class="ansi-blue-fg">(ret)</span>
+<span class="ansi-green-intense-fg ansi-bold">    763</span> <span class="ansi-green-fg">def</span> _nvmlCheckReturn<span class="ansi-blue-fg">(</span>ret<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-intense-fg ansi-bold">    764</span>     <span class="ansi-green-fg">if</span> <span class="ansi-blue-fg">(</span>ret <span class="ansi-blue-fg">!=</span> NVML_SUCCESS<span class="ansi-blue-fg">)</span><span class="ansi-blue-fg">:</span>
+<span class="ansi-green-fg">--&gt; 765</span><span class="ansi-red-fg">         </span><span class="ansi-green-fg">raise</span> NVMLError<span class="ansi-blue-fg">(</span>ret<span class="ansi-blue-fg">)</span>
+<span class="ansi-green-intense-fg ansi-bold">    766</span>     <span class="ansi-green-fg">return</span> ret
+<span class="ansi-green-intense-fg ansi-bold">    767</span> 
+
+<span class="ansi-red-fg">NVMLError_LibraryNotFound</span>: NVML Shared Library Not Found</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>･ RAM:  △Consumed    △Peaked    Used Total | Exec time 0:00:00.156
+･ CPU:          0          0      1,521 MB |
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">tensorflow_version</span> 2.x
+<span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="nn">tf</span>
+<span class="n">device_name</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">test</span><span class="o">.</span><span class="n">gpu_device_name</span><span class="p">()</span>
+<span class="k">if</span> <span class="n">device_name</span> <span class="o">!=</span> <span class="s1">&#39;/device:GPU:0&#39;</span><span class="p">:</span>
+  <span class="k">raise</span> <span class="ne">SystemError</span><span class="p">(</span><span class="s1">&#39;GPU device not found&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Found GPU at: </span><span class="si">{}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">device_name</span><span class="p">))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>･ RAM:  △Consumed    △Peaked    Used Total | Exec time 0:00:00.000
+･ CPU:          0          0      1,521 MB |
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>UsageError: Line magic function `%tensorflow_version` not found.
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">tensorflow_version</span> 2.x
+<span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="nn">tf</span>
+<span class="kn">import</span> <span class="nn">timeit</span>
+
+<span class="n">device_name</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">test</span><span class="o">.</span><span class="n">gpu_device_name</span><span class="p">()</span>
+<span class="k">if</span> <span class="n">device_name</span> <span class="o">!=</span> <span class="s1">&#39;/device:GPU:0&#39;</span><span class="p">:</span>
+  <span class="nb">print</span><span class="p">(</span>
+      <span class="s1">&#39;</span><span class="se">\n\n</span><span class="s1">This error most likely means that this notebook is not &#39;</span>
+      <span class="s1">&#39;configured to use a GPU.  Change this in Notebook Settings via the &#39;</span>
+      <span class="s1">&#39;command palette (cmd/ctrl-shift-P) or the Edit menu.</span><span class="se">\n\n</span><span class="s1">&#39;</span><span class="p">)</span>
+  <span class="k">raise</span> <span class="ne">SystemError</span><span class="p">(</span><span class="s1">&#39;GPU device not found&#39;</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">cpu</span><span class="p">():</span>
+  <span class="k">with</span> <span class="n">tf</span><span class="o">.</span><span class="n">device</span><span class="p">(</span><span class="s1">&#39;/cpu:0&#39;</span><span class="p">):</span>
+    <span class="n">random_image_cpu</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">((</span><span class="mi">100</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
+    <span class="n">net_cpu</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">keras</span><span class="o">.</span><span class="n">layers</span><span class="o">.</span><span class="n">Conv2D</span><span class="p">(</span><span class="mi">32</span><span class="p">,</span> <span class="mi">7</span><span class="p">)(</span><span class="n">random_image_cpu</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">tf</span><span class="o">.</span><span class="n">math</span><span class="o">.</span><span class="n">reduce_sum</span><span class="p">(</span><span class="n">net_cpu</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">gpu</span><span class="p">():</span>
+  <span class="k">with</span> <span class="n">tf</span><span class="o">.</span><span class="n">device</span><span class="p">(</span><span class="s1">&#39;/device:GPU:0&#39;</span><span class="p">):</span>
+    <span class="n">random_image_gpu</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">normal</span><span class="p">((</span><span class="mi">100</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">100</span><span class="p">,</span> <span class="mi">3</span><span class="p">))</span>
+    <span class="n">net_gpu</span> <span class="o">=</span> <span class="n">tf</span><span class="o">.</span><span class="n">keras</span><span class="o">.</span><span class="n">layers</span><span class="o">.</span><span class="n">Conv2D</span><span class="p">(</span><span class="mi">32</span><span class="p">,</span> <span class="mi">7</span><span class="p">)(</span><span class="n">random_image_gpu</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">tf</span><span class="o">.</span><span class="n">math</span><span class="o">.</span><span class="n">reduce_sum</span><span class="p">(</span><span class="n">net_gpu</span><span class="p">)</span>
+  
+<span class="c1"># We run each op once to warm up; see: https://stackoverflow.com/a/45067900</span>
+<span class="n">cpu</span><span class="p">()</span>
+<span class="n">gpu</span><span class="p">()</span>
+
+<span class="c1"># Run the op several times.</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Time (s) to convolve 32x7x7x3 filter over random 100x100x100x3 images &#39;</span>
+      <span class="s1">&#39;(batch x height x width x channel). Sum of ten runs.&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;CPU (s):&#39;</span><span class="p">)</span>
+<span class="n">cpu_time</span> <span class="o">=</span> <span class="n">timeit</span><span class="o">.</span><span class="n">timeit</span><span class="p">(</span><span class="s1">&#39;cpu()&#39;</span><span class="p">,</span> <span class="n">number</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">setup</span><span class="o">=</span><span class="s2">&quot;from __main__ import cpu&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">cpu_time</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;GPU (s):&#39;</span><span class="p">)</span>
+<span class="n">gpu_time</span> <span class="o">=</span> <span class="n">timeit</span><span class="o">.</span><span class="n">timeit</span><span class="p">(</span><span class="s1">&#39;gpu()&#39;</span><span class="p">,</span> <span class="n">number</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">setup</span><span class="o">=</span><span class="s2">&quot;from __main__ import gpu&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">gpu_time</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">&#39;GPU speedup over CPU: </span><span class="si">{}</span><span class="s1">x&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">cpu_time</span><span class="o">/</span><span class="n">gpu_time</span><span class="p">)))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>･ RAM:  △Consumed    △Peaked    Used Total | Exec time 0:00:00.000
+･ CPU:          0          0      1,521 MB |
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>UsageError: Line magic function `%tensorflow_version` not found.
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+</div>
+
+
+
+  </div><a class="u-url" href="/mlbangla/2022/01/04/openvion101.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/mlbangla/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/mlbangla/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/mlbangla/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>An easy to use blogging platform with support for Jupyter Notebooks.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/riyadhuddin" target="_blank" title="riyadhuddin"><svg class="svg-icon grey"><use xlink:href="/mlbangla/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/riyadhuddin_" target="_blank" title="riyadhuddin_"><svg class="svg-icon grey"><use xlink:href="/mlbangla/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
