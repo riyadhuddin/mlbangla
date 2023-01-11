@@ -5,7 +5,7 @@ description: Machine Learning for blockchain.
 categories: [markdown]
 title: How to Become a Machine Learning Engineer for a Blockchain Startup
 ---
-<!-- # Example Markdown Post
+# Example Markdown Post
 
 ## Basic setup
 
@@ -27,7 +27,7 @@ title: How to Become a Machine Learning Engineer for a Blockchain Startup
 ## Tweetcards
 
 {% twitter https://twitter.com/RiyadhUddin_/status/1470321628458278912?s=20 %}
- -->
+
  Blockchain technology and machine learning (ML) are two of the most exciting and rapidly-evolving fields in technology today. Combining these two technologies can lead to new opportunities in data security, privacy, and automation. As a result, becoming a machine learning engineer for a blockchain startup can be a highly rewarding and challenging career path.
 
 To become a machine learning engineer for a blockchain startup, you'll need a strong background in both machine learning and blockchain. This typically includes a degree in computer science, electrical engineering, or a related field, as well as experience with programming languages such as Python, and machine learning frameworks like TensorFlow or Pytorch.
