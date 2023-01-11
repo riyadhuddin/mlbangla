@@ -1,4 +1,34 @@
-Blockchain technology and machine learning (ML) are two of the most exciting and rapidly-evolving fields in technology today. Combining these two technologies can lead to new opportunities in data security, privacy, and automation. As a result, becoming a machine learning engineer for a blockchain startup can be a highly rewarding and challenging career path.
+---
+toc: true
+layout: post
+description: Machine Learning for blockchain.
+categories: [markdown]
+title: How to Become a Machine Learning Engineer for a Blockchain Startup
+---
+<!-- # Example Markdown Post
+
+## Basic setup
+
+
+## Images
+
+![](https://pbs.twimg.com/profile_images/1466358936890605569/dg4ot_dY_400x400.jpg)
+
+
+
+
+## Tables
+
+| Column 1 | Column 2 |
+|-|-|
+| A thing | Another thing |
+
+
+## Tweetcards
+
+{% twitter https://twitter.com/RiyadhUddin_/status/1470321628458278912?s=20 %}
+ -->
+ Blockchain technology and machine learning (ML) are two of the most exciting and rapidly-evolving fields in technology today. Combining these two technologies can lead to new opportunities in data security, privacy, and automation. As a result, becoming a machine learning engineer for a blockchain startup can be a highly rewarding and challenging career path.
 
 To become a machine learning engineer for a blockchain startup, you'll need a strong background in both machine learning and blockchain. This typically includes a degree in computer science, electrical engineering, or a related field, as well as experience with programming languages such as Python, and machine learning frameworks like TensorFlow or Pytorch.
 
@@ -15,3 +45,6 @@ Another challenge is the need for a deep understanding and the ability to merge 
 Working for a blockchain startup can be an exciting and challenging experience, but it also offers the potential for significant growth and professional development. As more and more businesses and organizations recognize the potential of blockchain and machine learning, the demand for skilled engineers in this field will only continue to grow.
 
 In conclusion, a career as a machine learning engineer for a blockchain startup can be highly rewarding, but also challenging. It requires a deep understanding of both machine learning and blockchain technologies and the ability to merge them to solve problems, to meet business goals. However, with the right qualifications, experience, and passion, you can become a valuable asset to a cutting-edge startup and be part of shaping the future of technology.
+
+In conclusion, a career as a machine learning engineer for a blockchain startup can be highly rewarding, but also challenging. It requires a deep understanding of both machine learning and blockchain technologies and the ability to merge them to solve problems, to meet business goals. However, with the right qualifications, experience, and passion, you can become a valuable asset to a cutting-edge startup and be part of shaping the future of technology.
+
